@@ -1,4 +1,9 @@
 # SceneAlert
+
+Archive fork for a school software engineering team I was apart of.
+
+--------
+
 [![Build Status](https://travis-ci.org/mrteddi/SceneAlert.svg?branch=master&service=github)](https://travis-ci.org/mrteddi/SceneAlert)
 [![Coverage Status](https://coveralls.io/repos/github/mrteddi/SceneAlert/badge.svg?branch=master&service=github)](https://coveralls.io/github/mrteddi/SceneAlert?branch=master)
 
