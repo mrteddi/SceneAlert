@@ -29,27 +29,24 @@ import 'package:scene_alert/secondPage.dart';
 
 void main() {
 
-  Widget makeTestableWidget({Widget child}) {
-    return MaterialApp(
-      home: child,
+   Widget makeTestableWidget({Widget child}) {
+
+      return MaterialApp(
+        home: child,
     );
   }
 
-  Widget ThemeWidget({ThemeData theme}) {
-    return MaterialApp(
-      home: Container(),
-      theme: theme,
+     Widget ThemeWidget({ThemeData theme}) {
+
+      return MaterialApp(
+        home: Container(),
+        theme: theme,
     );
-  }
+     }
 
   testWidgets('Login screen should appear', (tester) async {
     await tester.pumpWidget(new MyApp());
     expect(find.text('Login'), findsOneWidget);
-  });
-
-  testWidgets('Landing page should appear', (tester) async {
-    await tester.pumpWidget(new LandingPage());
-    expect(find.text('Scene Alert'), findsOneWidget);
   });
 
   testWidgets('All Login screen Text Test', (tester) async {
